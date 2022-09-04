@@ -11,7 +11,7 @@ npm i cookie-x
 ## Start
 
 ```js
-const Cookie = require('cookie-x')
+const Cookie = require('cookie-v')
 
 const privateKey = 'privateKey'
 
@@ -50,7 +50,7 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.url === '/bar') {
-    const cookie = new Cookie('1', req, res)
+    const cookie = new Cookie('privateKey', req, res)
 
     cookie.get('foo') // foo
     cookie.get('nonexistentKey') // null

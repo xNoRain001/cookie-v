@@ -1,6 +1,6 @@
 {
   "name": "cookie-v",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cookie utils.",
   "main": "./src/index.js",
   "keywords": [
