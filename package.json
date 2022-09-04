@@ -1,0 +1,15 @@
+{
+  "name": "cookie-v",
+  "version": "1.0.0",
+  "description": "Cookie utils.",
+  "main": "./src/index.js",
+  "keywords": [
+    "cookie-v"
+  ],
+  "author": "Zhang Meixue",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xNoRain001/cookie-v.git"
+  },
+  "license": "MIT"
+}
